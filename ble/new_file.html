@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="util/bytekit.js"></script>
+		<script src="bluetooth/common.js"></script>
+		<script src="line.js"></script>
+	</head>
+
+	<body>
+		<div id="new_file">
+			<div>接收
+				<p align="center">
+					<textarea id="receive" rows="6"></textarea>
+				</p>
+			</div>
+			<div>发送
+				<p align="center">
+					<textarea id="send" rows="6"></textarea>
+				</p>
+			</div>
+			<div class="mui-button-row">
+				<input type="button" id="connect" onclick="getconnect()" value="连接"></input>&nbsp;&nbsp;
+				<input type="button" id="send" onclick="send()" value="发送"></input>&nbsp;&nbsp;
+				<input type="button" id="clear" onclick="clear()" value="清空"></input>
+			</div>
+		</div>
+	</body>
+
+</html>

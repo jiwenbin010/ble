@@ -1,0 +1,22 @@
+{
+	"index.html": {
+		"resources": [
+			"js/pr.js",
+			"pr.js",
+			"new.js",
+			"new_file.html"
+		],
+		"refer": [
+			"new_file.html"
+		]
+	},
+	"new_file.html": {
+		"resources": [
+			"line.js",
+			"bluetooth.js",
+			"util/bytekit.js",
+			"bluetooth/bluetooth.js",
+			"bluetooth/common.js"
+		]
+	}
+}
